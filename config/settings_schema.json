@@ -109,11 +109,27 @@
         "content": "t:settings_schema.typography.settings.header__1.content"
       },
       {
+        "type": "paragraph",
+        "content": "Custom fonts will override Shopify font picker, however the theme css will reference the font weight and style from that font picker.  So, to pick an italic light font, select something like 'Azbuka' that has such options."
+      },
+      {
         "type": "font_picker",
         "id": "type_header_font",
         "default": "assistant_n4",
         "label": "t:settings_schema.typography.settings.type_header_font.label",
         "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "text",
+        "id": "custom_header_font_name",
+        "label": "Custom header font name",
+        "info": "Use the custom liquid field below to reference the font files uploaded to the store files content."
+      },
+      {
+        "type": "liquid",
+        "id": "custom_header_font_snippet",
+        "label": "Custom header font-face code",
+        "info": "EXAMPLE: @font-face { font-family: 'Custom Font'; src: url({{ 'CustomFont-Regular.woff' | file_url }}) format('woff'), url({{ 'CustomFont-Regular.woff2' | file_url }}) format('woff2');font-weight: normal;}"
       },
       {
         "type": "range",
@@ -135,6 +151,17 @@
         "default": "assistant_n4",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
+      },
+      {
+        "type": "text",
+        "id": "custom_body_font_name",
+        "label": "Custom body font name",
+        "info": "Use the custom liquid field below to reference the font files uploaded to the store files content."
+      },
+      {
+        "type": "liquid",
+        "id": "custom_body_font_snippet",
+        "label": "Custom body font-face code"
       },
       {
         "type": "range",
