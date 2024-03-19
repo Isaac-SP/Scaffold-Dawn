@@ -1,1 +1,88 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"scheme-1"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"columns_desktop":4,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "filter_group_heading_6na4iw": {
+          "type": "filter_group_heading",
+          "settings": {
+            "title": "Shop all Outerwear"
+          }
+        },
+        "link_rFpyQH": {
+          "type": "link",
+          "settings": {
+            "title": "Jackets",
+            "link": "shopify:\/\/collections\/banksy",
+            "icon": "shopify:\/\/shop_images\/kids-leather-jacket.jpg"
+          }
+        },
+        "link_WVrWjq": {
+          "type": "link",
+          "settings": {
+            "title": "Gilet",
+            "link": "shopify:\/\/collections\/banksy",
+            "icon": "shopify:\/\/shop_images\/kids-leather-jacket.jpg"
+          }
+        },
+        "link_kcXWV8": {
+          "type": "link",
+          "settings": {
+            "title": "Ponchons",
+            "link": "shopify:\/\/collections\/example-collection-two",
+            "icon": "shopify:\/\/shop_images\/kids-leather-jacket.jpg"
+          }
+        },
+        "filter_group_heading_Vw3DEE": {
+          "type": "filter_group_heading",
+          "settings": {
+            "title": "Shop by Colour"
+          }
+        },
+        "filter_option_9mzUg7": {
+          "type": "filter_option",
+          "settings": {
+            "filter_name": "Colours"
+          }
+        }
+      },
+      "block_order": [
+        "filter_group_heading_6na4iw",
+        "link_rFpyQH",
+        "link_WVrWjq",
+        "link_kcXWV8",
+        "filter_group_heading_Vw3DEE",
+        "filter_option_9mzUg7"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}

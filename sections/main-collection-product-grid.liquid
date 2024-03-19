@@ -384,6 +384,68 @@
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
     }
+  ],
+  "blocks": [
+    {
+      "type": "filter_group_heading",
+      "name": "Filter group heading",
+      "settings": [
+        {
+          "type": "text",
+          "label": "title",
+          "id": "title"
+        }
+      ]
+    },
+    {
+      "type": "filter_option",
+      "name": "Filter option",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Filter name",
+          "id": "filter_name",
+          "info": "This must match exactly to the name given in the Search and Discovery app."
+        },
+        {
+          "type": "image_picker",
+          "label": "Icon",
+          "id": "icon",
+          "info": "(Optional)"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "title"
+        },
+        {
+          "type": "url",
+          "label": "Link",
+          "id": "link",
+          "info": "You can filter collections by tag if you like."
+        },
+        {
+          "type": "image_picker",
+          "label": "Icon",
+          "id": "icon",
+          "info": "(Optional)"
+        }
+      ]
+    },
+    {
+      "type": "price",
+      "name": "Price"
+    },
+    {
+      "type": "availability",
+      "name": "Availability"
+    }
   ]
 }
 {% endschema %}
